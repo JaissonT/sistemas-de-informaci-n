@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recuperar Contraseña</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos/estilos-contraseña.css">
+	<link rel="shortcut icon" type="image/x-icon" href="..\imagenes\icono.ico">
+	<link rel="stylesheet" type="text/css" href="..\iniciar sesion\estilo\font.css">
+</head>
+<body>
+	<header>
+		<h1>Sistema Electrónico de Gestión de Farmacia</h1>
+		<div class="logo">
+			<img src="..\imagenes\logo_1.png">
+		</div>
+	</header>
+
+	<section class="contenedor">
+		<a href="..\iniciar sesion\iniciar_sesion.html" class="volver"> Volver a iniciar sesión</a>
+		<h2>Recuperación de Clave</h2>
+		<form action="recuperar_clave.php" method="post" >
+			<p class="campos">Campos Obligatorios *</p>
+			<label>Ingrese su Usuario <label class="red">*</label></label>
+			<br>
+			<input type="text"  name="usuario" id="usuario" maxlength="15">
+			<br>
+			<label>Ingrese su Correo<label class="red"> *</label></label>
+			<br>
+			<input type="text" name="correo" id="correo" maxlength="40">
+			<br>
+			<label>Ingrese su Palabra de Seguridad<label class="red"> *</label></label>
+			<br>
+			<input type="text" name="palabra" id="palabra" maxlength="10">
+			<br>
+			<input type="submit" name="btn" id="btn" value="Enviar">
+			<p class="error" id="error"></p>
+		</form>
+		
+
+	</section>
+
+	<footer>
+	
+		<div class="iconos">
+		<div class="siguenos"><p>Síguenos en: </p></div>
+		<span class="icon-facebook"><a href="https://es-la.facebook.com/"></a></span>
+		<span class="icon-twitter"></span>
+		<span class="icon-instagram"></span>
+
+		</div>
+		<div class="contacto">
+			<div class="gmail"><p >Contáctenos en: Copito@gmail.com</p></div>	
+
+		</div>
+	</footer>
+<script src="validar-recuperar-contra.js"></script>
+</body>
+</html>

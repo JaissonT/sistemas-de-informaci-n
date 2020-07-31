@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+ header{
+ 	width: 100%; 
+ 	height: 110px;
+ 	background: #11757D;
+ }
+ .volver{
+ 
+ 	font-size: 14px;
+ 	text-decoration: none;
+ }
+ h1{
+ 	color: white;
+ 	text-align: center;
+ 	height: 0px;
+ 	padding: 10px 0px 0px 0px;
+ 	
+ }
+ img{
+ 	width: 170px;
+ 	height: 100px;
+
+ }
+header .logo{
+	height:95px; /*120*/ 
+	float: left;
+	width: 20%; /*tamaño logo en contenedor*/
+	
+}
+
+ .contenedor{
+
+ 	width: 100%;
+ 	padding: 53px;
+
+ 	
+ }
+ h2{
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+ form{
+ 	margin: auto;
+ 	width: 500px;
+ 	padding: 30px;
+	border:2px solid black; 
+	
+	background: #ACB5B6;
+ }
+
+ form .campos{
+ 	text-align: right;
+ 	color: red;
+ }
+ form .red{
+ 	color: red;
+ }
+ form label{
+ 	font-size: 20px;
+ }
+ input{
+
+	margin-bottom: 15px;
+	width: 90%;
+	padding: 10px;
+	box-sizing: border-box;
+	border:1px solid black;
+}
+input[type="submit"]{
+	width: 100%;
+	margin: auto;
+	background: #15929D;	
+	border:0;
+	color: white;
+	opacity: 0.8;
+	cursor: pointer; /*pone una manito en el puntero*/
+	border-radius: 20px;
+	margin-bottom: 0;
+
+}
+
+
+
+
+footer{
+	width: 100%;
+	background: #11757D;
+	height: 92px;
+
+}
+.síguenos{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+footer .iconos{
+	float: left;
+	width: 80%;
+	height: 80px;
+	padding: 0px 10px;
+	display: block;
+
+}
+footer span{
+	font-size: 50px;
+	padding: 10px;
+}
+footer .contacto{
+	float: left;
+	width: 20%;
+	
+	height: 80px;
+}
+.siguenos{
+	width: 100%;
+	padding: 5px;
+}
+.gmail{
+	padding: 20px;
+}
+
+.error{
+	padding: 10px;
+	color: red;
+}

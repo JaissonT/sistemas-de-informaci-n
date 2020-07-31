@@ -22,15 +22,15 @@
 
  .contenedor{
  	width: 100%; /*Tamaño total*/
- 	height: 105px; /*120*/
+ 	height: 105px; 
  }
  img{
  	width: 170px;
- 	height: 100px; /*120*/
+ 	height: 100px; 
 
  }
 header .logo{
-	height:100px; /*120*/ 
+	height:100px; 
 	float: left;
 	width: 13%; /*tamaño logo en contenedor*/
 	
@@ -41,7 +41,7 @@ header .logo{
 header .menu{
 	float: left;
 	width: 40%;/*tamaño nav en contenedor*/
- 	height: 100px; /*120*/
+ 	height: 100px; 
  
 
 }
@@ -84,7 +84,7 @@ nav li a:hover{
 	display: block;
 }
 
-/*treminaaaaa menuuuuuuuuuuuuuu*/
+/*terminaaaaa menu*/
 .sesion{
 	float: left;
 	width: 47%;/*tamaño sesion en contenedor*/
